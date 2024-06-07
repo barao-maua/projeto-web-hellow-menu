@@ -20,7 +20,7 @@ def itensCarrinho(request):
 
 def localEntrega(request):
     return render(request, 'localEntrega.html')
-
+ 
 def resumoCarrinho(request):
     return render(request, 'resumoCarrinho.html')
 
